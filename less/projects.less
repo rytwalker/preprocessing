@@ -1,0 +1,42 @@
+.projects {
+  .project {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    // align-items: baseline;
+    flex-wrap: wrap;
+    &__desc {
+      // display: flex;
+      width: 50%;
+    }
+
+    &__header {
+      display: flex;
+      align-items: center;
+      h2 {
+        font-size: 4rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-right: auto;
+      }
+
+      a,
+      a:visited {
+        color: @color-black;
+        font-size: 3rem;
+      }
+
+      a:first-of-type {
+        margin-right: 2.4rem;
+      }
+    }
+
+    &__img {
+      width: 37%;
+      margin-right: 8%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
